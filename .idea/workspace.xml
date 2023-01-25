@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="feat: introduced main method that will serve as the entry point of the program and introduced parser for command line input">
+    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="feat: implemented CommandLineInput class to store data on filename and date input">
+      <change afterPath="$PROJECT_DIR$/src/main/java/parser/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parser/CommandLineInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/CommandLineInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674605029852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: implemented CommandLineInput class to store data on filename and date input">
+      <created>1674605538184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674605538184</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: initialised maven project" />
     <MESSAGE value="feat: introduced picocli as source file" />
     <MESSAGE value="feat: introduced main method that will serve as the entry point of the program and introduced parser for command line input" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: introduced main method that will serve as the entry point of the program and introduced parser for command line input" />
+    <MESSAGE value="feat: implemented CommandLineInput class to store data on filename and date input" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implemented CommandLineInput class to store data on filename and date input" />
   </component>
 </project>
