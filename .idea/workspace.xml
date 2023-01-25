@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="fix: parseLogCSV bug fixed and LogBean reconfigured with CSVBindPosition">
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/CookieSearch.java" afterDir="false" />
+    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="fix: created and implemented method in CookieSearch that can filter for cookies on a specific date">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parser/LogBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/LogBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/CookieSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/CookieSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674610386040</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix: created and implemented method in CookieSearch that can filter for cookies on a specific date">
+      <created>1674611961775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674611961775</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -174,6 +179,7 @@
     <MESSAGE value="feat: introduced class that will be used to parse through the CSV file" />
     <MESSAGE value="feat: implemented method in LogCSVParser to parse through a csv file according to the specified log bean class" />
     <MESSAGE value="fix: parseLogCSV bug fixed and LogBean reconfigured with CSVBindPosition" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: parseLogCSV bug fixed and LogBean reconfigured with CSVBindPosition" />
+    <MESSAGE value="fix: created and implemented method in CookieSearch that can filter for cookies on a specific date" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: created and implemented method in CookieSearch that can filter for cookies on a specific date" />
   </component>
 </project>
