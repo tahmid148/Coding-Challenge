@@ -1,12 +1,11 @@
 import parser.CommandLineInput;
-import parser.LogBean;
-import parser.LogCSVParser;
 import picocli.CommandLine;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.time.LocalDate;
-import java.util.List;
+
+import static search.CookieSearch.findMostActiveCookies;
 
 @CommandLine.Command (
         name = "Main",
@@ -18,7 +17,7 @@ public class Main implements Runnable {
     @CommandLine.Option(names = "-f", description = "Specify the filename to process")
     String filename;
 
-    @CommandLine.Option(names = "-d", description = "Specify a desired date")
+    @CommandLine.Option(names = "-d", description = "Specify a desired date to find the most active cookies")
     String date;
 
 
@@ -30,6 +29,11 @@ public class Main implements Runnable {
     @Override
     public void run() {
         CommandLineInput commandLineInput = new CommandLineInput(new File(filename), LocalDate.parse(date));
+        try {
+            findMostActiveCookies(commandLineInput);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
 
     }
