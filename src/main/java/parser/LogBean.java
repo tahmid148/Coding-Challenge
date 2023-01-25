@@ -2,11 +2,11 @@ package parser;
 
 import java.time.LocalDateTime;
 
-public class Log {
+public class LogBean {
     private String cookieID;
     private LocalDateTime timestamp;
 
-    public Log(String cookieID, LocalDateTime timestamp) {
+    public LogBean(String cookieID, LocalDateTime timestamp) {
         this.cookieID = cookieID;
         this.timestamp = timestamp;
     }

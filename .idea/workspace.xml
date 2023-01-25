@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="build: added .jar dependencies to lib">
-      <change afterPath="$PROJECT_DIR$/src/main/java/parser/LogParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="feat: introduced class that will be used to parse through the CSV file">
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/LogBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/LogCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/LogCSVParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,8 +133,18 @@
       <option name="project" value="LOCAL" />
       <updated>1674606607310</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: introduced class that will be used to parse through the CSV file">
+      <created>1674606998000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674606998000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: initialised maven project" />
@@ -145,6 +155,7 @@
     <MESSAGE value="feat: implemented main file that will serve as entry point for the program" />
     <MESSAGE value="build: added openCSV as a dependency" />
     <MESSAGE value="build: added .jar dependencies to lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: added .jar dependencies to lib" />
+    <MESSAGE value="feat: introduced class that will be used to parse through the CSV file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: introduced class that will be used to parse through the CSV file" />
   </component>
 </project>
