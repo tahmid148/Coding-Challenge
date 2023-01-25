@@ -1,21 +1,22 @@
 package parser;
 
+import java.io.File;
 import java.time.LocalDate;
 
 public class CommandLineInput {
-    private String fileName;
+    private File fileName;
     private LocalDate date; // LocalDate is used to accommodate the date formatting style
 
-    public CommandLineInput(String fileName, LocalDate date) {
+    public CommandLineInput(File fileName, LocalDate date) {
         this.fileName = fileName;
         this.date = date;
     }
 
-    public String getFileName() {
+    public File getFileName() {
         return fileName;
     }
 
-    public void setFileName(String fileName) {
+    public void setFileName(File fileName) {
         this.fileName = fileName;
     }
 

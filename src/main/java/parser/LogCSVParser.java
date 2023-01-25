@@ -14,7 +14,7 @@ public class LogCSVParser {
 
         CsvToBean<LogBean> csvReader = new CsvToBeanBuilder<LogBean>(reader)
                 .withType(LogBean.class)
-                .withSeparator(',')
+                .withSkipLines(1)
                 .withIgnoreLeadingWhiteSpace(true)
                 .withIgnoreEmptyLine(true)
                 .build();

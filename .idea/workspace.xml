@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="feat: introduced class that will be used to parse through the CSV file">
-      <change beforePath="$PROJECT_DIR$/src/main/java/parser/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/LogBean.java" afterDir="false" />
+    <list default="true" id="fedb12f4-f53a-48f8-8d75-21c332e0cb07" name="Changes" comment="feat: implemented method in LogCSVParser to parse through a csv file according to the specified log bean class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/CommandLineInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/CommandLineInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/LogBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/LogBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parser/LogCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/LogCSVParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Coding-Challenge" />
-      <option name="PROGRAM_PARAMETERS" value="-f example.csv -d 2018-12-08" />
+      <option name="PROGRAM_PARAMETERS" value="-f $PROJECT_DIR$/cookies.csv -d 2018-12-08" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674606998000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: implemented method in LogCSVParser to parse through a csv file according to the specified log bean class">
+      <created>1674608981578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674608981578</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -156,6 +166,7 @@
     <MESSAGE value="build: added openCSV as a dependency" />
     <MESSAGE value="build: added .jar dependencies to lib" />
     <MESSAGE value="feat: introduced class that will be used to parse through the CSV file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: introduced class that will be used to parse through the CSV file" />
+    <MESSAGE value="feat: implemented method in LogCSVParser to parse through a csv file according to the specified log bean class" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implemented method in LogCSVParser to parse through a csv file according to the specified log bean class" />
   </component>
 </project>

@@ -1,15 +1,17 @@
 package parser;
 
+import com.opencsv.bean.CsvBindByPosition;
+import com.opencsv.bean.CsvDate;
+
 import java.time.LocalDateTime;
 
 public class LogBean {
+    @CsvBindByPosition(position = 0)
     private String cookieID;
-    private LocalDateTime timestamp;
 
-    public LogBean(String cookieID, LocalDateTime timestamp) {
-        this.cookieID = cookieID;
-        this.timestamp = timestamp;
-    }
+    @CsvBindByPosition(position = 1)
+    @CsvDate(value = "yyyy-MM-dd'T'HH:mm:ssXXX")
+    private LocalDateTime timestamp;
 
     public String getCookieID() {
         return cookieID;

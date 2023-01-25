@@ -1,7 +1,12 @@
 import parser.CommandLineInput;
+import parser.LogBean;
+import parser.LogCSVParser;
 import picocli.CommandLine;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.time.LocalDate;
+import java.util.List;
 
 @CommandLine.Command (
         name = "Main",
@@ -24,7 +29,8 @@ public class Main implements Runnable {
 
     @Override
     public void run() {
-        CommandLineInput commandLineInput = new CommandLineInput(filename, LocalDate.parse(date));
+        CommandLineInput commandLineInput = new CommandLineInput(new File(filename), LocalDate.parse(date));
+
 
     }
 }
